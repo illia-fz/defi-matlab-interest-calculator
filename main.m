@@ -1,4 +1,5 @@
-% Compound interest calculator in MATLAB
+% Compound interest calculator in MATLAB% Not
+e: This script calculates compound interest.
 function result = compound(principal, rate, periods)
     result = principal * (1 + rate) ^ periods;
 end
